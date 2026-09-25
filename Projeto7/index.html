@@ -3,16 +3,19 @@
     <head>
         <title>CADASTRO DE USUÁRIO</title>
     </head>
-    <header>
-        <h1>Cadastro do usuário</h1>
-        <ul>
-            <li><a href="">Sobre mim</a></li>
-            <li><a href="">Portfólio</a></li>
-            <li><a href="">Receita de pudim</a></li>
-        </ul>
-    </header>
     <body>
-        <h1>Formulário de Cadastro</h1>
+        <header>
+            <h1>Cadastro do usuário</h1>
+            <nav>
+                <ul>
+                    <li><a href="Projetos-Dev.Web/Projeto1/index.html">Sobre mim</a></li>
+                    <li><a href="Projetos-Dev.Web/Projeto2/index.html">Portfólio</a></li>
+                    <li><a href="Projetos-Dev.Web/Projeto3/index.html">Receita de pudim</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <h2>Formulário de Cadastro</h2>
         <form action="/dados" method="post">
             <label for="nome">Nome: </label>
             <input type="text" id="nome" name="nome" required><br><br>
@@ -33,8 +36,8 @@
             <label for="interesses">Interesses: </label><br>
             <input type="checkbox" id="interesse1" name="interesses" value="tecnologia">
             <label for="interesse1">Tecnologia</label><br>
-            <input type="checkbox" id="interesse2" name="interesses" value="desing">
-            <label for="interesse2">Desing</label><br>
+            <input type="checkbox" id="interesse2" name="interesses" value="design">
+            <label for="interesse2">Design</label><br>
             <input type="checkbox" id="interesse3" name="interesses" value="esportes">
             <label for="interesse3">Esportes</label><br><br>
 
